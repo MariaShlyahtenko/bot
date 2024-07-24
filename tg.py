@@ -21,8 +21,8 @@ import db
 import pandas as pd
 from datetime import *
 
-token = '6307067319:AAFViRxf6VvEpKu-CXxJhSpUgS3YJQzzMQU'
-bot = telebot.TeleBot('6307067319:AAFViRxf6VvEpKu-CXxJhSpUgS3YJQzzMQU',num_threads=5)
+
+bot = telebot.TeleBot('',num_threads=5)
 
 all_target_descriptions = ['Оксана Самойлова', 'Дмитрий Васильков', 'Алексей Бочкарев', 'Алексей Вавилов', 'Мария Гончарова']
 user_data = {}
